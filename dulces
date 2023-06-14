@@ -1,0 +1,19 @@
+#Programa que simula una maquina de dulces que solo acepta monedad de 2,5 y 10 
+
+costo_dulce= 2; cambio=''
+
+cliente= int(input("Ingrese morralla: "))
+
+if(cliente==2):
+    print("Dulce en camino")
+    
+
+elif(cliente==5):
+    cambio= cliente -2
+    print("Dulce en camino")
+    print("Tome su cambio: ", cambio )
+    
+elif(cliente==10):
+    cambio= cliente -2
+    print("Dulce en camino")
+    print("Tome su cambio: ", cambio)
